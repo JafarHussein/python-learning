@@ -62,10 +62,10 @@ print(name1 + name2)
 # and -> A conditional statement tha evaluates a condition that needs both values to be True
 # Or-> It only needs at least one value to be True, to evaluate to True
 
+#Ternary Operator
 
+# The ternary operator is a replacement to the if else statements
 
+meaning=100
 
-
-
-
-
+print('Meaning is greater than 10') if meaning > 10 else print('Meaning is less than 10')
