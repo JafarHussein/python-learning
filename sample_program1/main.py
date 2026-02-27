@@ -44,6 +44,16 @@ elif player_choice =='scissors':
         print(f"player choice:{player_choice} vs computer choice:{computer_choice}")
         print("Its a draw 🤝")
 
+# import random
+
+#random.random()->This generates a flot between 0.0 and 1.0
+# random.randint(a, b)->This generates a random integer between a and b
+# random.choice(sequence)->Selects a random element froma sequence(list, tuple, string)
+# random.shuffle(x)->this shuffles a list in place
+
+
+
+
 
 
 
