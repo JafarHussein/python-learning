@@ -75,3 +75,18 @@ nums_copy=nums.copy()
 my_nums=list(nums)
 my_copy=nums[:]
 
+#Tupels in Py
+
+#Mutability:Lists are mutable, meaning you can modify, add, remove elements after creation, while
+# Tupels are immuteable, meaning their contents cannot be changed once they are defined
+
+my_tuple=tuple(('tuple_element_1','tuple_element_2','tuple_element_3'))
+(one, *two, three)=my_tuple
+print(one)
+print(two)
+print(three)
+
+print(my_tuple.count(2))
+#.count()->Returns the number of instances a particular element occurs
+# Basically counting
+
